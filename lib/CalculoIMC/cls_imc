@@ -1,0 +1,15 @@
+
+class cls_imc{
+ static double calc_IMC(double altura , double peso) {
+      double _IMC = 0;
+      double a = (altura)/100;
+
+      double p = peso;
+
+      _IMC = p /  (a * a);
+
+      return  _IMC;
+
+
+}
+}
